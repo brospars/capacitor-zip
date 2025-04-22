@@ -11,6 +11,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "me.rospars.capacitorzip"
     compileSdkVersion 27
     defaultConfig {
         minSdkVersion 21
